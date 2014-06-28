@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9006CD97195EB32200452371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD96195EB32200452371 /* Foundation.framework */; };
+		9006CD99195EB32200452371 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD98195EB32200452371 /* CoreGraphics.framework */; };
+		9006CD9B195EB32200452371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD9A195EB32200452371 /* UIKit.framework */; };
+		9006CDA1195EB32200452371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9006CD9F195EB32200452371 /* InfoPlist.strings */; };
+		9006CDA3195EB32200452371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDA2195EB32200452371 /* main.m */; };
+		9006CDA7195EB32200452371 /* SBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDA6195EB32200452371 /* SBCAppDelegate.m */; };
+		9006CDAA195EB32200452371 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDA8195EB32200452371 /* Main_iPhone.storyboard */; };
+		9006CDAD195EB32200452371 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDAB195EB32200452371 /* Main_iPad.storyboard */; };
+		9006CDB0195EB32200452371 /* SBCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDAF195EB32200452371 /* SBCFirstViewController.m */; };
+		9006CDB3195EB32200452371 /* SBCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDB2195EB32200452371 /* SBCSecondViewController.m */; };
+		9006CDB5195EB32200452371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDB4195EB32200452371 /* Images.xcassets */; };
+		9006CDBC195EB32200452371 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CDBB195EB32200452371 /* XCTest.framework */; };
+		9006CDBD195EB32200452371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD96195EB32200452371 /* Foundation.framework */; };
+		9006CDBE195EB32200452371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD9A195EB32200452371 /* UIKit.framework */; };
+		9006CDC6195EB32200452371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDC4195EB32200452371 /* InfoPlist.strings */; };
+		9006CDC8195EB32200452371 /* Split_Britches_CaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDC7195EB32200452371 /* Split_Britches_CaptureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9006CDBF195EB32200452371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9006CD8B195EB32200452371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9006CD92195EB32200452371;
+			remoteInfo = "Split Britches Capture";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9006CD93195EB32200452371 /* Split Britches Capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Britches Capture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9006CD96195EB32200452371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9006CD98195EB32200452371 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9006CD9A195EB32200452371 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9006CD9E195EB32200452371 /* Split Britches Capture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Split Britches Capture-Info.plist"; sourceTree = "<group>"; };
+		9006CDA0195EB32200452371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9006CDA2195EB32200452371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9006CDA4195EB32200452371 /* Split Britches Capture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Split Britches Capture-Prefix.pch"; sourceTree = "<group>"; };
+		9006CDA5195EB32200452371 /* SBCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCAppDelegate.h; sourceTree = "<group>"; };
+		9006CDA6195EB32200452371 /* SBCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCAppDelegate.m; sourceTree = "<group>"; };
+		9006CDA9195EB32200452371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9006CDAC195EB32200452371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9006CDAE195EB32200452371 /* SBCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCFirstViewController.h; sourceTree = "<group>"; };
+		9006CDAF195EB32200452371 /* SBCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCFirstViewController.m; sourceTree = "<group>"; };
+		9006CDB1195EB32200452371 /* SBCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCSecondViewController.h; sourceTree = "<group>"; };
+		9006CDB2195EB32200452371 /* SBCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCSecondViewController.m; sourceTree = "<group>"; };
+		9006CDB4195EB32200452371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9006CDBA195EB32200452371 /* Split Britches CaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split Britches CaptureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9006CDBB195EB32200452371 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9006CDC3195EB32200452371 /* Split Britches CaptureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Split Britches CaptureTests-Info.plist"; sourceTree = "<group>"; };
+		9006CDC5195EB32200452371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9006CDC7195EB32200452371 /* Split_Britches_CaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Split_Britches_CaptureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9006CD90195EB32200452371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006CD99195EB32200452371 /* CoreGraphics.framework in Frameworks */,
+				9006CD9B195EB32200452371 /* UIKit.framework in Frameworks */,
+				9006CD97195EB32200452371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9006CDB7195EB32200452371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006CDBC195EB32200452371 /* XCTest.framework in Frameworks */,
+				9006CDBE195EB32200452371 /* UIKit.framework in Frameworks */,
+				9006CDBD195EB32200452371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9006CD8A195EB32200452371 = {
+			isa = PBXGroup;
+			children = (
+				9006CD9C195EB32200452371 /* Split Britches Capture */,
+				9006CDC1195EB32200452371 /* Split Britches CaptureTests */,
+				9006CD95195EB32200452371 /* Frameworks */,
+				9006CD94195EB32200452371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9006CD94195EB32200452371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9006CD93195EB32200452371 /* Split Britches Capture.app */,
+				9006CDBA195EB32200452371 /* Split Britches CaptureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9006CD95195EB32200452371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9006CD96195EB32200452371 /* Foundation.framework */,
+				9006CD98195EB32200452371 /* CoreGraphics.framework */,
+				9006CD9A195EB32200452371 /* UIKit.framework */,
+				9006CDBB195EB32200452371 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9006CD9C195EB32200452371 /* Split Britches Capture */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDA5195EB32200452371 /* SBCAppDelegate.h */,
+				9006CDA6195EB32200452371 /* SBCAppDelegate.m */,
+				9006CDA8195EB32200452371 /* Main_iPhone.storyboard */,
+				9006CDAB195EB32200452371 /* Main_iPad.storyboard */,
+				9006CDAE195EB32200452371 /* SBCFirstViewController.h */,
+				9006CDAF195EB32200452371 /* SBCFirstViewController.m */,
+				9006CDB1195EB32200452371 /* SBCSecondViewController.h */,
+				9006CDB2195EB32200452371 /* SBCSecondViewController.m */,
+				9006CDB4195EB32200452371 /* Images.xcassets */,
+				9006CD9D195EB32200452371 /* Supporting Files */,
+			);
+			path = "Split Britches Capture";
+			sourceTree = "<group>";
+		};
+		9006CD9D195EB32200452371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9006CD9E195EB32200452371 /* Split Britches Capture-Info.plist */,
+				9006CD9F195EB32200452371 /* InfoPlist.strings */,
+				9006CDA2195EB32200452371 /* main.m */,
+				9006CDA4195EB32200452371 /* Split Britches Capture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9006CDC1195EB32200452371 /* Split Britches CaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDC7195EB32200452371 /* Split_Britches_CaptureTests.m */,
+				9006CDC2195EB32200452371 /* Supporting Files */,
+			);
+			path = "Split Britches CaptureTests";
+			sourceTree = "<group>";
+		};
+		9006CDC2195EB32200452371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDC3195EB32200452371 /* Split Britches CaptureTests-Info.plist */,
+				9006CDC4195EB32200452371 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9006CD92195EB32200452371 /* Split Britches Capture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9006CDCB195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches Capture" */;
+			buildPhases = (
+				9006CD8F195EB32200452371 /* Sources */,
+				9006CD90195EB32200452371 /* Frameworks */,
+				9006CD91195EB32200452371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Split Britches Capture";
+			productName = "Split Britches Capture";
+			productReference = 9006CD93195EB32200452371 /* Split Britches Capture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9006CDB9195EB32200452371 /* Split Britches CaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9006CDCE195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches CaptureTests" */;
+			buildPhases = (
+				9006CDB6195EB32200452371 /* Sources */,
+				9006CDB7195EB32200452371 /* Frameworks */,
+				9006CDB8195EB32200452371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9006CDC0195EB32200452371 /* PBXTargetDependency */,
+			);
+			name = "Split Britches CaptureTests";
+			productName = "Split Britches CaptureTests";
+			productReference = 9006CDBA195EB32200452371 /* Split Britches CaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9006CD8B195EB32200452371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Morgan Wall";
+				TargetAttributes = {
+					9006CDB9195EB32200452371 = {
+						TestTargetID = 9006CD92195EB32200452371;
+					};
+				};
+			};
+			buildConfigurationList = 9006CD8E195EB32200452371 /* Build configuration list for PBXProject "Split Britches Capture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9006CD8A195EB32200452371;
+			productRefGroup = 9006CD94195EB32200452371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9006CD92195EB32200452371 /* Split Britches Capture */,
+				9006CDB9195EB32200452371 /* Split Britches CaptureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9006CD91195EB32200452371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006CDAD195EB32200452371 /* Main_iPad.storyboard in Resources */,
+				9006CDB5195EB32200452371 /* Images.xcassets in Resources */,
+				9006CDAA195EB32200452371 /* Main_iPhone.storyboard in Resources */,
+				9006CDA1195EB32200452371 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9006CDB8195EB32200452371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006CDC6195EB32200452371 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9006CD8F195EB32200452371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006CDA3195EB32200452371 /* main.m in Sources */,
+				9006CDA7195EB32200452371 /* SBCAppDelegate.m in Sources */,
+				9006CDB0195EB32200452371 /* SBCFirstViewController.m in Sources */,
+				9006CDB3195EB32200452371 /* SBCSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9006CDB6195EB32200452371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9006CDC8195EB32200452371 /* Split_Britches_CaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9006CDC0195EB32200452371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9006CD92195EB32200452371 /* Split Britches Capture */;
+			targetProxy = 9006CDBF195EB32200452371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9006CD9F195EB32200452371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006CDA0195EB32200452371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9006CDA8195EB32200452371 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006CDA9195EB32200452371 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9006CDAB195EB32200452371 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006CDAC195EB32200452371 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9006CDC4195EB32200452371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006CDC5195EB32200452371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9006CDC9195EB32200452371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9006CDCA195EB32200452371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9006CDCC195EB32200452371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Split Britches Capture/Split Britches Capture-Prefix.pch";
+				INFOPLIST_FILE = "Split Britches Capture/Split Britches Capture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9006CDCD195EB32200452371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Split Britches Capture/Split Britches Capture-Prefix.pch";
+				INFOPLIST_FILE = "Split Britches Capture/Split Britches Capture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9006CDCF195EB32200452371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Split Britches Capture.app/Split Britches Capture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Split Britches Capture/Split Britches Capture-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Split Britches CaptureTests/Split Britches CaptureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9006CDD0195EB32200452371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Split Britches Capture.app/Split Britches Capture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Split Britches Capture/Split Britches Capture-Prefix.pch";
+				INFOPLIST_FILE = "Split Britches CaptureTests/Split Britches CaptureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9006CD8E195EB32200452371 /* Build configuration list for PBXProject "Split Britches Capture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9006CDC9195EB32200452371 /* Debug */,
+				9006CDCA195EB32200452371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9006CDCB195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches Capture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9006CDCC195EB32200452371 /* Debug */,
+				9006CDCD195EB32200452371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9006CDCE195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches CaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9006CDCF195EB32200452371 /* Debug */,
+				9006CDD0195EB32200452371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9006CD8B195EB32200452371 /* Project object */;
+}
