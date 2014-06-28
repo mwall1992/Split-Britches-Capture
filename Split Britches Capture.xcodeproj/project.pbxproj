@@ -1,558 +1,1275 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		9006CD97195EB32200452371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD96195EB32200452371 /* Foundation.framework */; };
-		9006CD99195EB32200452371 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD98195EB32200452371 /* CoreGraphics.framework */; };
-		9006CD9B195EB32200452371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD9A195EB32200452371 /* UIKit.framework */; };
-		9006CDBC195EB32200452371 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CDBB195EB32200452371 /* XCTest.framework */; };
-		9006CDBD195EB32200452371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD96195EB32200452371 /* Foundation.framework */; };
-		9006CDBE195EB32200452371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD9A195EB32200452371 /* UIKit.framework */; };
-		9006CDC6195EB32200452371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDC4195EB32200452371 /* InfoPlist.strings */; };
-		9006CDC8195EB32200452371 /* Split_Britches_CaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDC7195EB32200452371 /* Split_Britches_CaptureTests.m */; };
-		9006CDE9195EBDE800452371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDE5195EBDE800452371 /* InfoPlist.strings */; };
-		9006CDEC195EBDF000452371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDEB195EBDF000452371 /* main.m */; };
-		9006CDF2195EBE4900452371 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDEE195EBE4900452371 /* Main_iPad.storyboard */; };
-		9006CDF3195EBE4900452371 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDF0195EBE4900452371 /* Main_iPhone.storyboard */; };
-		9006CDF6195EBE6900452371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDF5195EBE6900452371 /* Images.xcassets */; };
-		9006CE03195EBEF300452371 /* SBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDFA195EBEF300452371 /* SBCAppDelegate.m */; };
-		9006CE04195EBEF300452371 /* SBCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDFF195EBEF300452371 /* SBCFirstViewController.m */; };
-		9006CE05195EBEF300452371 /* SBCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CE02195EBEF300452371 /* SBCSecondViewController.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9006CDBF195EB32200452371 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9006CD8B195EB32200452371 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9006CD92195EB32200452371;
-			remoteInfo = "Split Britches Capture";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		9006CD93195EB32200452371 /* Split Britches Capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Britches Capture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9006CD96195EB32200452371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9006CD98195EB32200452371 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9006CD9A195EB32200452371 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9006CDBA195EB32200452371 /* Split Britches CaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split Britches CaptureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9006CDBB195EB32200452371 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9006CDC3195EB32200452371 /* Split Britches CaptureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Split Britches CaptureTests-Info.plist"; sourceTree = "<group>"; };
-		9006CDC5195EB32200452371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9006CDC7195EB32200452371 /* Split_Britches_CaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Split_Britches_CaptureTests.m; sourceTree = "<group>"; };
-		9006CDE6195EBDE800452371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9006CDE7195EBDE800452371 /* Split Britches Capture-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Split Britches Capture-Info.plist"; sourceTree = "<group>"; };
-		9006CDE8195EBDE800452371 /* Split Britches Capture-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Split Britches Capture-Prefix.pch"; sourceTree = "<group>"; };
-		9006CDEB195EBDF000452371 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9006CDEF195EBE4900452371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9006CDF1195EBE4900452371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		9006CDF5195EBE6900452371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9006CDF9195EBEF300452371 /* SBCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCAppDelegate.h; sourceTree = "<group>"; };
-		9006CDFA195EBEF300452371 /* SBCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCAppDelegate.m; sourceTree = "<group>"; };
-		9006CDFE195EBEF300452371 /* SBCFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCFirstViewController.h; sourceTree = "<group>"; };
-		9006CDFF195EBEF300452371 /* SBCFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCFirstViewController.m; sourceTree = "<group>"; };
-		9006CE01195EBEF300452371 /* SBCSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCSecondViewController.h; sourceTree = "<group>"; };
-		9006CE02195EBEF300452371 /* SBCSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCSecondViewController.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		9006CD90195EB32200452371 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9006CD99195EB32200452371 /* CoreGraphics.framework in Frameworks */,
-				9006CD9B195EB32200452371 /* UIKit.framework in Frameworks */,
-				9006CD97195EB32200452371 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9006CDB7195EB32200452371 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9006CDBC195EB32200452371 /* XCTest.framework in Frameworks */,
-				9006CDBE195EB32200452371 /* UIKit.framework in Frameworks */,
-				9006CDBD195EB32200452371 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		9006CD8A195EB32200452371 = {
-			isa = PBXGroup;
-			children = (
-				9006CD9C195EB32200452371 /* Split Britches Capture */,
-				9006CDC1195EB32200452371 /* Split Britches CaptureTests */,
-				9006CD95195EB32200452371 /* Frameworks */,
-				9006CD94195EB32200452371 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		9006CD94195EB32200452371 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9006CD93195EB32200452371 /* Split Britches Capture.app */,
-				9006CDBA195EB32200452371 /* Split Britches CaptureTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9006CD95195EB32200452371 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9006CD96195EB32200452371 /* Foundation.framework */,
-				9006CD98195EB32200452371 /* CoreGraphics.framework */,
-				9006CD9A195EB32200452371 /* UIKit.framework */,
-				9006CDBB195EB32200452371 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9006CD9C195EB32200452371 /* Split Britches Capture */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDEB195EBDF000452371 /* main.m */,
-				9006CDF4195EBE6900452371 /* Assets */,
-				9006CDF7195EBEF300452371 /* Classes */,
-				9006CDED195EBE4900452371 /* Storyboards */,
-				9006CDE4195EBDE800452371 /* Supporting Files */,
-			);
-			path = "Split Britches Capture";
-			sourceTree = "<group>";
-		};
-		9006CDC1195EB32200452371 /* Split Britches CaptureTests */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDC7195EB32200452371 /* Split_Britches_CaptureTests.m */,
-				9006CDC2195EB32200452371 /* Supporting Files */,
-			);
-			path = "Split Britches CaptureTests";
-			sourceTree = "<group>";
-		};
-		9006CDC2195EB32200452371 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDC3195EB32200452371 /* Split Britches CaptureTests-Info.plist */,
-				9006CDC4195EB32200452371 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9006CDE4195EBDE800452371 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDE5195EBDE800452371 /* InfoPlist.strings */,
-				9006CDE7195EBDE800452371 /* Split Britches Capture-Info.plist */,
-				9006CDE8195EBDE800452371 /* Split Britches Capture-Prefix.pch */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9006CDED195EBE4900452371 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDEE195EBE4900452371 /* Main_iPad.storyboard */,
-				9006CDF0195EBE4900452371 /* Main_iPhone.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		9006CDF4195EBE6900452371 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDF5195EBE6900452371 /* Images.xcassets */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		9006CDF7195EBEF300452371 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDF8195EBEF300452371 /* Models */,
-				9006CDF9195EBEF300452371 /* SBCAppDelegate.h */,
-				9006CDFA195EBEF300452371 /* SBCAppDelegate.m */,
-				9006CDFB195EBEF300452371 /* Utilities */,
-				9006CDFC195EBEF300452371 /* View Controllers */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		9006CDF8195EBEF300452371 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9006CDFB195EBEF300452371 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		9006CDFC195EBEF300452371 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDFD195EBEF300452371 /* First View Controller */,
-				9006CE00195EBEF300452371 /* Second View Controller */,
-			);
-			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		9006CDFD195EBEF300452371 /* First View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				9006CDFE195EBEF300452371 /* SBCFirstViewController.h */,
-				9006CDFF195EBEF300452371 /* SBCFirstViewController.m */,
-			);
-			path = "First View Controller";
-			sourceTree = "<group>";
-		};
-		9006CE00195EBEF300452371 /* Second View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				9006CE01195EBEF300452371 /* SBCSecondViewController.h */,
-				9006CE02195EBEF300452371 /* SBCSecondViewController.m */,
-			);
-			path = "Second View Controller";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		9006CD92195EB32200452371 /* Split Britches Capture */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9006CDCB195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches Capture" */;
-			buildPhases = (
-				9006CD8F195EB32200452371 /* Sources */,
-				9006CD90195EB32200452371 /* Frameworks */,
-				9006CD91195EB32200452371 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Split Britches Capture";
-			productName = "Split Britches Capture";
-			productReference = 9006CD93195EB32200452371 /* Split Britches Capture.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9006CDB9195EB32200452371 /* Split Britches CaptureTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9006CDCE195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches CaptureTests" */;
-			buildPhases = (
-				9006CDB6195EB32200452371 /* Sources */,
-				9006CDB7195EB32200452371 /* Frameworks */,
-				9006CDB8195EB32200452371 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9006CDC0195EB32200452371 /* PBXTargetDependency */,
-			);
-			name = "Split Britches CaptureTests";
-			productName = "Split Britches CaptureTests";
-			productReference = 9006CDBA195EB32200452371 /* Split Britches CaptureTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		9006CD8B195EB32200452371 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = SBC;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Morgan Wall";
-				TargetAttributes = {
-					9006CDB9195EB32200452371 = {
-						TestTargetID = 9006CD92195EB32200452371;
-					};
-				};
-			};
-			buildConfigurationList = 9006CD8E195EB32200452371 /* Build configuration list for PBXProject "Split Britches Capture" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 9006CD8A195EB32200452371;
-			productRefGroup = 9006CD94195EB32200452371 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				9006CD92195EB32200452371 /* Split Britches Capture */,
-				9006CDB9195EB32200452371 /* Split Britches CaptureTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		9006CD91195EB32200452371 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9006CDF3195EBE4900452371 /* Main_iPhone.storyboard in Resources */,
-				9006CDF6195EBE6900452371 /* Images.xcassets in Resources */,
-				9006CDF2195EBE4900452371 /* Main_iPad.storyboard in Resources */,
-				9006CDE9195EBDE800452371 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9006CDB8195EB32200452371 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9006CDC6195EB32200452371 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		9006CD8F195EB32200452371 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9006CDEC195EBDF000452371 /* main.m in Sources */,
-				9006CE03195EBEF300452371 /* SBCAppDelegate.m in Sources */,
-				9006CE04195EBEF300452371 /* SBCFirstViewController.m in Sources */,
-				9006CE05195EBEF300452371 /* SBCSecondViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9006CDB6195EB32200452371 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9006CDC8195EB32200452371 /* Split_Britches_CaptureTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9006CDC0195EB32200452371 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9006CD92195EB32200452371 /* Split Britches Capture */;
-			targetProxy = 9006CDBF195EB32200452371 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9006CDC4195EB32200452371 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9006CDC5195EB32200452371 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9006CDE5195EBDE800452371 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9006CDE6195EBDE800452371 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9006CDEE195EBE4900452371 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9006CDEF195EBE4900452371 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		9006CDF0195EBE4900452371 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9006CDF1195EBE4900452371 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		9006CDC9195EB32200452371 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9006CDCA195EB32200452371 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9006CDCC195EB32200452371 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Split Britches Capture/Supporting Files/Split Britches Capture-Prefix.pch";
-				INFOPLIST_FILE = "Split Britches Capture/Supporting Files/Split Britches Capture-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		9006CDCD195EB32200452371 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Split Britches Capture/Supporting Files/Split Britches Capture-Prefix.pch";
-				INFOPLIST_FILE = "Split Britches Capture/Supporting Files/Split Britches Capture-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		9006CDCF195EB32200452371 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Split Britches Capture.app/Split Britches Capture";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Split Britches Capture/Split Britches Capture-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Split Britches CaptureTests/Split Britches CaptureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		9006CDD0195EB32200452371 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Split Britches Capture.app/Split Britches Capture";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Split Britches Capture/Split Britches Capture-Prefix.pch";
-				INFOPLIST_FILE = "Split Britches CaptureTests/Split Britches CaptureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		9006CD8E195EB32200452371 /* Build configuration list for PBXProject "Split Britches Capture" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9006CDC9195EB32200452371 /* Debug */,
-				9006CDCA195EB32200452371 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9006CDCB195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches Capture" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9006CDCC195EB32200452371 /* Debug */,
-				9006CDCD195EB32200452371 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9006CDCE195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches CaptureTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9006CDCF195EB32200452371 /* Debug */,
-				9006CDD0195EB32200452371 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 9006CD8B195EB32200452371 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>013D743253224A19A2E3677C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FEC7D36F742D4CF983DD5A91</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7D2A74DEFD544EB0AA6175EF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>9006CD8A195EB32200452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CD9C195EB32200452371</string>
+				<string>9006CDC1195EB32200452371</string>
+				<string>9006CD95195EB32200452371</string>
+				<string>9006CD94195EB32200452371</string>
+				<string>93863C5D5AB44F5FBA257683</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CD8B195EB32200452371</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>SBC</string>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Morgan Wall</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>9006CDB9195EB32200452371</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>9006CD92195EB32200452371</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>9006CD8E195EB32200452371</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>9006CD8A195EB32200452371</string>
+			<key>productRefGroup</key>
+			<string>9006CD94195EB32200452371</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>9006CD92195EB32200452371</string>
+				<string>9006CDB9195EB32200452371</string>
+			</array>
+		</dict>
+		<key>9006CD8E195EB32200452371</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9006CDC9195EB32200452371</string>
+				<string>9006CDCA195EB32200452371</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9006CD8F195EB32200452371</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9006CDEC195EBDF000452371</string>
+				<string>9006CE03195EBEF300452371</string>
+				<string>9006CE04195EBEF300452371</string>
+				<string>9006CE05195EBEF300452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9006CD90195EB32200452371</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9006CD99195EB32200452371</string>
+				<string>9006CD9B195EB32200452371</string>
+				<string>9006CD97195EB32200452371</string>
+				<string>013D743253224A19A2E3677C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9006CD91195EB32200452371</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9006CDF3195EBE4900452371</string>
+				<string>9006CDF6195EBE6900452371</string>
+				<string>9006CDF2195EBE4900452371</string>
+				<string>9006CDE9195EBDE800452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9006CD92195EB32200452371</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9006CDCB195EB32200452371</string>
+			<key>buildPhases</key>
+			<array>
+				<string>7D2A74DEFD544EB0AA6175EF</string>
+				<string>9006CD8F195EB32200452371</string>
+				<string>9006CD90195EB32200452371</string>
+				<string>9006CD91195EB32200452371</string>
+				<string>E8C7EEA2F113485AAD27F34B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Split Britches Capture</string>
+			<key>productName</key>
+			<string>Split Britches Capture</string>
+			<key>productReference</key>
+			<string>9006CD93195EB32200452371</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>9006CD93195EB32200452371</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Split Britches Capture.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9006CD94195EB32200452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CD93195EB32200452371</string>
+				<string>9006CDBA195EB32200452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CD95195EB32200452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CD96195EB32200452371</string>
+				<string>9006CD98195EB32200452371</string>
+				<string>9006CD9A195EB32200452371</string>
+				<string>9006CDBB195EB32200452371</string>
+				<string>FEC7D36F742D4CF983DD5A91</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CD96195EB32200452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9006CD97195EB32200452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CD96195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CD98195EB32200452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9006CD99195EB32200452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CD98195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CD9A195EB32200452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9006CD9B195EB32200452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CD9A195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CD9C195EB32200452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDEB195EBDF000452371</string>
+				<string>9006CDF4195EBE6900452371</string>
+				<string>9006CDF7195EBEF300452371</string>
+				<string>9006CDED195EBE4900452371</string>
+				<string>9006CDE4195EBDE800452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Split Britches Capture</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDB6195EB32200452371</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9006CDC8195EB32200452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9006CDB7195EB32200452371</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9006CDBC195EB32200452371</string>
+				<string>9006CDBE195EB32200452371</string>
+				<string>9006CDBD195EB32200452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9006CDB8195EB32200452371</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9006CDC6195EB32200452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9006CDB9195EB32200452371</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9006CDCE195EB32200452371</string>
+			<key>buildPhases</key>
+			<array>
+				<string>9006CDB6195EB32200452371</string>
+				<string>9006CDB7195EB32200452371</string>
+				<string>9006CDB8195EB32200452371</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>9006CDC0195EB32200452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Split Britches CaptureTests</string>
+			<key>productName</key>
+			<string>Split Britches CaptureTests</string>
+			<key>productReference</key>
+			<string>9006CDBA195EB32200452371</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>9006CDBA195EB32200452371</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Split Britches CaptureTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9006CDBB195EB32200452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>9006CDBC195EB32200452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDBB195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDBD195EB32200452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CD96195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDBE195EB32200452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CD9A195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDBF195EB32200452371</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>9006CD8B195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>9006CD92195EB32200452371</string>
+			<key>remoteInfo</key>
+			<string>Split Britches Capture</string>
+		</dict>
+		<key>9006CDC0195EB32200452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>9006CD92195EB32200452371</string>
+			<key>targetProxy</key>
+			<string>9006CDBF195EB32200452371</string>
+		</dict>
+		<key>9006CDC1195EB32200452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDC7195EB32200452371</string>
+				<string>9006CDC2195EB32200452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Split Britches CaptureTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDC2195EB32200452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDC3195EB32200452371</string>
+				<string>9006CDC4195EB32200452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDC3195EB32200452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Split Britches CaptureTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDC4195EB32200452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDC5195EB32200452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDC5195EB32200452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDC6195EB32200452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDC4195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDC7195EB32200452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Split_Britches_CaptureTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDC8195EB32200452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDC7195EB32200452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDC9195EB32200452371</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9006CDCA195EB32200452371</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9006CDCB195EB32200452371</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9006CDCC195EB32200452371</string>
+				<string>9006CDCD195EB32200452371</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9006CDCC195EB32200452371</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>93863C5D5AB44F5FBA257683</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Split Britches Capture/Supporting Files/Split Britches Capture-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Split Britches Capture/Supporting Files/Split Britches Capture-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9006CDCD195EB32200452371</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>93863C5D5AB44F5FBA257683</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Split Britches Capture/Supporting Files/Split Britches Capture-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Split Britches Capture/Supporting Files/Split Britches Capture-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9006CDCE195EB32200452371</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9006CDCF195EB32200452371</string>
+				<string>9006CDD0195EB32200452371</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9006CDCF195EB32200452371</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Split Britches Capture.app/Split Britches Capture</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Split Britches Capture/Split Britches Capture-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>Split Britches CaptureTests/Split Britches CaptureTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9006CDD0195EB32200452371</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Split Britches Capture.app/Split Britches Capture</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Split Britches Capture/Split Britches Capture-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Split Britches CaptureTests/Split Britches CaptureTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9006CDE4195EBDE800452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDE5195EBDE800452371</string>
+				<string>9006CDE7195EBDE800452371</string>
+				<string>9006CDE8195EBDE800452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDE5195EBDE800452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDE6195EBDE800452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDE6195EBDE800452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDE7195EBDE800452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Split Britches Capture-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDE8195EBDE800452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Split Britches Capture-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDE9195EBDE800452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDE5195EBDE800452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDEB195EBDF000452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDEC195EBDF000452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDEB195EBDF000452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDED195EBE4900452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDEE195EBE4900452371</string>
+				<string>9006CDF0195EBE4900452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Storyboards</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDEE195EBE4900452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDEF195EBE4900452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main_iPad.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDEF195EBE4900452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main_iPad.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDF0195EBE4900452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDF1195EBE4900452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main_iPhone.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDF1195EBE4900452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main_iPhone.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDF2195EBE4900452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDEE195EBE4900452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDF3195EBE4900452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDF0195EBE4900452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDF4195EBE6900452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDF5195EBE6900452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Assets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDF5195EBE6900452371</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDF6195EBE6900452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDF5195EBE6900452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CDF7195EBEF300452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDF8195EBEF300452371</string>
+				<string>9006CDF9195EBEF300452371</string>
+				<string>9006CDFA195EBEF300452371</string>
+				<string>9006CDFB195EBEF300452371</string>
+				<string>9006CDFC195EBEF300452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDF8195EBEF300452371</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Models</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDF9195EBEF300452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SBCAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDFA195EBEF300452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SBCAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDFB195EBEF300452371</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Utilities</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDFC195EBEF300452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDFD195EBEF300452371</string>
+				<string>9006CE00195EBEF300452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>View Controllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDFD195EBEF300452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CDFE195EBEF300452371</string>
+				<string>9006CDFF195EBEF300452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>First View Controller</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDFE195EBEF300452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SBCFirstViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CDFF195EBEF300452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SBCFirstViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CE00195EBEF300452371</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9006CE01195EBEF300452371</string>
+				<string>9006CE02195EBEF300452371</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Second View Controller</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CE01195EBEF300452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SBCSecondViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CE02195EBEF300452371</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SBCSecondViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9006CE03195EBEF300452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDFA195EBEF300452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CE04195EBEF300452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CDFF195EBEF300452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9006CE05195EBEF300452371</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9006CE02195EBEF300452371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93863C5D5AB44F5FBA257683</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8C7EEA2F113485AAD27F34B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>FEC7D36F742D4CF983DD5A91</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>9006CD8B195EB32200452371</string>
+</dict>
+</plist>
