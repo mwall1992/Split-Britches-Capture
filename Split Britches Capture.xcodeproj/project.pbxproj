@@ -22,9 +22,8 @@
 		9006CDF3195EBE4900452371 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDF0195EBE4900452371 /* Main_iPhone.storyboard */; };
 		9006CDF6195EBE6900452371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDF5195EBE6900452371 /* Images.xcassets */; };
 		9006CE03195EBEF300452371 /* SBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDFA195EBEF300452371 /* SBCAppDelegate.m */; };
-		9006CF05195F626A00452371 /* SBCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CF04195F626A00452371 /* SBCCameraViewController.m */; };
 		9006CF08195F628900452371 /* SBCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CF07195F628900452371 /* SBCSettingsViewController.m */; };
-		9006CF0B195F629500452371 /* SBCUploadManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CF0A195F629500452371 /* SBCUploadManagerViewController.m */; };
+		9006CF10195F714B00452371 /* SBCUploadManagerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CF0F195F714B00452371 /* SBCUploadManagerTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +55,10 @@
 		9006CDF5195EBE6900452371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9006CDF9195EBEF300452371 /* SBCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCAppDelegate.h; sourceTree = "<group>"; };
 		9006CDFA195EBEF300452371 /* SBCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCAppDelegate.m; sourceTree = "<group>"; };
-		9006CF03195F626A00452371 /* SBCCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCCameraViewController.h; sourceTree = "<group>"; };
-		9006CF04195F626A00452371 /* SBCCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCCameraViewController.m; sourceTree = "<group>"; };
 		9006CF06195F628900452371 /* SBCSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCSettingsViewController.h; sourceTree = "<group>"; };
 		9006CF07195F628900452371 /* SBCSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCSettingsViewController.m; sourceTree = "<group>"; };
-		9006CF09195F629500452371 /* SBCUploadManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCUploadManagerViewController.h; sourceTree = "<group>"; };
-		9006CF0A195F629500452371 /* SBCUploadManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCUploadManagerViewController.m; sourceTree = "<group>"; };
+		9006CF0E195F714B00452371 /* SBCUploadManagerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCUploadManagerTableViewController.h; sourceTree = "<group>"; };
+		9006CF0F195F714B00452371 /* SBCUploadManagerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCUploadManagerTableViewController.m; sourceTree = "<group>"; };
 		93863C5D5AB44F5FBA257683 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FEC7D36F742D4CF983DD5A91 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -209,20 +206,10 @@
 		9006CDFC195EBEF300452371 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9006CF00195F623B00452371 /* CameraViewController */,
 				9006CF01195F623B00452371 /* SettingsViewController */,
-				9006CF02195F623B00452371 /* UploadManagerViewController */,
+				9006CF0D195F713500452371 /* UploadManagerTableViewController */,
 			);
 			path = "View Controllers";
-			sourceTree = "<group>";
-		};
-		9006CF00195F623B00452371 /* CameraViewController */ = {
-			isa = PBXGroup;
-			children = (
-				9006CF03195F626A00452371 /* SBCCameraViewController.h */,
-				9006CF04195F626A00452371 /* SBCCameraViewController.m */,
-			);
-			path = CameraViewController;
 			sourceTree = "<group>";
 		};
 		9006CF01195F623B00452371 /* SettingsViewController */ = {
@@ -234,13 +221,13 @@
 			path = SettingsViewController;
 			sourceTree = "<group>";
 		};
-		9006CF02195F623B00452371 /* UploadManagerViewController */ = {
+		9006CF0D195F713500452371 /* UploadManagerTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				9006CF09195F629500452371 /* SBCUploadManagerViewController.h */,
-				9006CF0A195F629500452371 /* SBCUploadManagerViewController.m */,
+				9006CF0E195F714B00452371 /* SBCUploadManagerTableViewController.h */,
+				9006CF0F195F714B00452371 /* SBCUploadManagerTableViewController.m */,
 			);
-			path = UploadManagerViewController;
+			path = UploadManagerTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,10 +365,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9006CDEC195EBDF000452371 /* main.m in Sources */,
-				9006CF0B195F629500452371 /* SBCUploadManagerViewController.m in Sources */,
-				9006CF05195F626A00452371 /* SBCCameraViewController.m in Sources */,
 				9006CF08195F628900452371 /* SBCSettingsViewController.m in Sources */,
 				9006CE03195EBEF300452371 /* SBCAppDelegate.m in Sources */,
+				9006CF10195F714B00452371 /* SBCUploadManagerTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

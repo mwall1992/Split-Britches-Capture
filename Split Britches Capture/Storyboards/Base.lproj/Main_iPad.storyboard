@@ -4,25 +4,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Camera View Controller - Camera-->
-        <scene sceneID="LB5-Es-OiA">
-            <objects>
-                <viewController id="nHK-As-XQf" customClass="SBCCameraViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="g4w-lI-Sft"/>
-                        <viewControllerLayoutGuide type="bottom" id="eq7-DO-sGY"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="SdD-5A-Tfo">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Camera" id="j6p-eb-MqK"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eMx-6f-VRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3063" y="-495"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -34,52 +15,93 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="nHK-As-XQf" kind="relationship" relationship="viewControllers" id="WMH-xi-OVY"/>
-                        <segue destination="GIi-3N-RWK" kind="relationship" relationship="viewControllers" id="Z7S-ze-Vc8"/>
-                        <segue destination="Zmd-lO-WN3" kind="relationship" relationship="viewControllers" id="VN0-G9-nua"/>
+                        <segue destination="uKh-5T-6uR" kind="relationship" relationship="viewControllers" id="eL0-CJ-fRu"/>
+                        <segue destination="PE9-d7-pgL" kind="relationship" relationship="viewControllers" id="MkG-XC-nVN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2023" y="718"/>
         </scene>
-        <!--Upload Manager View Controller - Uploads-->
-        <scene sceneID="HEV-Ko-tdy">
+        <!--Upload Manager Table View Controller - Uploads Manager-->
+        <scene sceneID="TVT-iM-gfL">
             <objects>
-                <viewController id="GIi-3N-RWK" customClass="SBCUploadManagerViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="D1J-rV-vRU"/>
-                        <viewControllerLayoutGuide type="bottom" id="lYP-vt-egV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dZy-dG-f7t">
+                <tableViewController id="ri5-NZ-PTj" customClass="SBCUploadManagerTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="sFF-lI-fGU">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Uploads" id="WOI-5i-6KD"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mac-ph-dkZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Aaf-iu-OIF">
+                                <rect key="frame" x="0.0" y="86" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Aaf-iu-OIF" id="GZ5-Nn-NQR">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ri5-NZ-PTj" id="VPd-pH-kWW"/>
+                            <outlet property="delegate" destination="ri5-NZ-PTj" id="yJS-bK-HVq"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Uploads Manager" id="c6X-iM-sLp"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V8V-u2-9J0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3055" y="718"/>
+            <point key="canvasLocation" x="4028" y="718"/>
+        </scene>
+        <!--Navigation Controller - Uploads Manager-->
+        <scene sceneID="xXZ-QS-zSN">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="uKh-5T-6uR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Uploads Manager" id="oe7-uS-GMS"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mni-sM-UUn">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ri5-NZ-PTj" kind="relationship" relationship="rootViewController" id="guU-xG-tI9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zg8-yV-fPn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3044" y="718"/>
+        </scene>
+        <!--Navigation Controller - Settings-->
+        <scene sceneID="i5z-kK-H3m">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="PE9-d7-pgL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" id="kDv-Mv-pq3"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7uy-Gf-LJ3">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QjN-7F-wbB" kind="relationship" relationship="rootViewController" id="1bB-8b-fja"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O3J-Bs-LET" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3044" y="1989"/>
         </scene>
         <!--Settings View Controller - Settings-->
-        <scene sceneID="hyH-s4-uCm">
+        <scene sceneID="uzb-d2-QmJ">
             <objects>
-                <viewController id="Zmd-lO-WN3" customClass="SBCSettingsViewController" sceneMemberID="viewController">
+                <viewController id="QjN-7F-wbB" customClass="SBCSettingsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WO1-bJ-KG8"/>
-                        <viewControllerLayoutGuide type="bottom" id="HlQ-l3-PXX"/>
+                        <viewControllerLayoutGuide type="top" id="PoZ-IB-nak"/>
+                        <viewControllerLayoutGuide type="bottom" id="gSK-c3-c1B"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bXK-U6-VSD">
+                    <view key="view" contentMode="scaleToFill" id="bq7-G3-H0B">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="UOh-Zt-aOs"/>
+                    <navigationItem key="navigationItem" title="Settings" id="Jwh-xn-I8H"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b8p-09-MlV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rqH-O4-rCv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3063" y="1945"/>
+            <point key="canvasLocation" x="4028" y="1989"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
