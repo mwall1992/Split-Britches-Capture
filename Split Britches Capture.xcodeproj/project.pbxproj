@@ -10,19 +10,19 @@
 		9006CD97195EB32200452371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD96195EB32200452371 /* Foundation.framework */; };
 		9006CD99195EB32200452371 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD98195EB32200452371 /* CoreGraphics.framework */; };
 		9006CD9B195EB32200452371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD9A195EB32200452371 /* UIKit.framework */; };
-		9006CDA1195EB32200452371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9006CD9F195EB32200452371 /* InfoPlist.strings */; };
-		9006CDA3195EB32200452371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDA2195EB32200452371 /* main.m */; };
-		9006CDA7195EB32200452371 /* SBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDA6195EB32200452371 /* SBCAppDelegate.m */; };
-		9006CDAA195EB32200452371 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDA8195EB32200452371 /* Main_iPhone.storyboard */; };
-		9006CDAD195EB32200452371 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDAB195EB32200452371 /* Main_iPad.storyboard */; };
-		9006CDB0195EB32200452371 /* SBCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDAF195EB32200452371 /* SBCFirstViewController.m */; };
-		9006CDB3195EB32200452371 /* SBCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDB2195EB32200452371 /* SBCSecondViewController.m */; };
-		9006CDB5195EB32200452371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDB4195EB32200452371 /* Images.xcassets */; };
 		9006CDBC195EB32200452371 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CDBB195EB32200452371 /* XCTest.framework */; };
 		9006CDBD195EB32200452371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD96195EB32200452371 /* Foundation.framework */; };
 		9006CDBE195EB32200452371 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006CD9A195EB32200452371 /* UIKit.framework */; };
 		9006CDC6195EB32200452371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDC4195EB32200452371 /* InfoPlist.strings */; };
 		9006CDC8195EB32200452371 /* Split_Britches_CaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDC7195EB32200452371 /* Split_Britches_CaptureTests.m */; };
+		9006CDE9195EBDE800452371 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDE5195EBDE800452371 /* InfoPlist.strings */; };
+		9006CDEC195EBDF000452371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDEB195EBDF000452371 /* main.m */; };
+		9006CDF2195EBE4900452371 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDEE195EBE4900452371 /* Main_iPad.storyboard */; };
+		9006CDF3195EBE4900452371 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDF0195EBE4900452371 /* Main_iPhone.storyboard */; };
+		9006CDF6195EBE6900452371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9006CDF5195EBE6900452371 /* Images.xcassets */; };
+		9006CE03195EBEF300452371 /* SBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDFA195EBEF300452371 /* SBCAppDelegate.m */; };
+		9006CE04195EBEF300452371 /* SBCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CDFF195EBEF300452371 /* SBCFirstViewController.m */; };
+		9006CE05195EBEF300452371 /* SBCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9006CE02195EBEF300452371 /* SBCSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,24 +40,24 @@
 		9006CD96195EB32200452371 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9006CD98195EB32200452371 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9006CD9A195EB32200452371 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9006CD9E195EB32200452371 /* Split Britches Capture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Split Britches Capture-Info.plist"; sourceTree = "<group>"; };
-		9006CDA0195EB32200452371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9006CDA2195EB32200452371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9006CDA4195EB32200452371 /* Split Britches Capture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Split Britches Capture-Prefix.pch"; sourceTree = "<group>"; };
-		9006CDA5195EB32200452371 /* SBCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCAppDelegate.h; sourceTree = "<group>"; };
-		9006CDA6195EB32200452371 /* SBCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCAppDelegate.m; sourceTree = "<group>"; };
-		9006CDA9195EB32200452371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		9006CDAC195EB32200452371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9006CDAE195EB32200452371 /* SBCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCFirstViewController.h; sourceTree = "<group>"; };
-		9006CDAF195EB32200452371 /* SBCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCFirstViewController.m; sourceTree = "<group>"; };
-		9006CDB1195EB32200452371 /* SBCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCSecondViewController.h; sourceTree = "<group>"; };
-		9006CDB2195EB32200452371 /* SBCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCSecondViewController.m; sourceTree = "<group>"; };
-		9006CDB4195EB32200452371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9006CDBA195EB32200452371 /* Split Britches CaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split Britches CaptureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9006CDBB195EB32200452371 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9006CDC3195EB32200452371 /* Split Britches CaptureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Split Britches CaptureTests-Info.plist"; sourceTree = "<group>"; };
 		9006CDC5195EB32200452371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9006CDC7195EB32200452371 /* Split_Britches_CaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Split_Britches_CaptureTests.m; sourceTree = "<group>"; };
+		9006CDE6195EBDE800452371 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9006CDE7195EBDE800452371 /* Split Britches Capture-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Split Britches Capture-Info.plist"; sourceTree = "<group>"; };
+		9006CDE8195EBDE800452371 /* Split Britches Capture-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Split Britches Capture-Prefix.pch"; sourceTree = "<group>"; };
+		9006CDEB195EBDF000452371 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9006CDEF195EBE4900452371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9006CDF1195EBE4900452371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9006CDF5195EBE6900452371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9006CDF9195EBEF300452371 /* SBCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCAppDelegate.h; sourceTree = "<group>"; };
+		9006CDFA195EBEF300452371 /* SBCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCAppDelegate.m; sourceTree = "<group>"; };
+		9006CDFE195EBEF300452371 /* SBCFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCFirstViewController.h; sourceTree = "<group>"; };
+		9006CDFF195EBEF300452371 /* SBCFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCFirstViewController.m; sourceTree = "<group>"; };
+		9006CE01195EBEF300452371 /* SBCSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCSecondViewController.h; sourceTree = "<group>"; };
+		9006CE02195EBEF300452371 /* SBCSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,29 +117,13 @@
 		9006CD9C195EB32200452371 /* Split Britches Capture */ = {
 			isa = PBXGroup;
 			children = (
-				9006CDA5195EB32200452371 /* SBCAppDelegate.h */,
-				9006CDA6195EB32200452371 /* SBCAppDelegate.m */,
-				9006CDA8195EB32200452371 /* Main_iPhone.storyboard */,
-				9006CDAB195EB32200452371 /* Main_iPad.storyboard */,
-				9006CDAE195EB32200452371 /* SBCFirstViewController.h */,
-				9006CDAF195EB32200452371 /* SBCFirstViewController.m */,
-				9006CDB1195EB32200452371 /* SBCSecondViewController.h */,
-				9006CDB2195EB32200452371 /* SBCSecondViewController.m */,
-				9006CDB4195EB32200452371 /* Images.xcassets */,
-				9006CD9D195EB32200452371 /* Supporting Files */,
+				9006CDEB195EBDF000452371 /* main.m */,
+				9006CDF4195EBE6900452371 /* Assets */,
+				9006CDF7195EBEF300452371 /* Classes */,
+				9006CDED195EBE4900452371 /* Storyboards */,
+				9006CDE4195EBDE800452371 /* Supporting Files */,
 			);
 			path = "Split Britches Capture";
-			sourceTree = "<group>";
-		};
-		9006CD9D195EB32200452371 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9006CD9E195EB32200452371 /* Split Britches Capture-Info.plist */,
-				9006CD9F195EB32200452371 /* InfoPlist.strings */,
-				9006CDA2195EB32200452371 /* main.m */,
-				9006CDA4195EB32200452371 /* Split Britches Capture-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9006CDC1195EB32200452371 /* Split Britches CaptureTests */ = {
@@ -158,6 +142,86 @@
 				9006CDC4195EB32200452371 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9006CDE4195EBDE800452371 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDE5195EBDE800452371 /* InfoPlist.strings */,
+				9006CDE7195EBDE800452371 /* Split Britches Capture-Info.plist */,
+				9006CDE8195EBDE800452371 /* Split Britches Capture-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9006CDED195EBE4900452371 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDEE195EBE4900452371 /* Main_iPad.storyboard */,
+				9006CDF0195EBE4900452371 /* Main_iPhone.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9006CDF4195EBE6900452371 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDF5195EBE6900452371 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9006CDF7195EBEF300452371 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDF8195EBEF300452371 /* Models */,
+				9006CDF9195EBEF300452371 /* SBCAppDelegate.h */,
+				9006CDFA195EBEF300452371 /* SBCAppDelegate.m */,
+				9006CDFB195EBEF300452371 /* Utilities */,
+				9006CDFC195EBEF300452371 /* View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9006CDF8195EBEF300452371 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9006CDFB195EBEF300452371 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9006CDFC195EBEF300452371 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDFD195EBEF300452371 /* First View Controller */,
+				9006CE00195EBEF300452371 /* Second View Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9006CDFD195EBEF300452371 /* First View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9006CDFE195EBEF300452371 /* SBCFirstViewController.h */,
+				9006CDFF195EBEF300452371 /* SBCFirstViewController.m */,
+			);
+			path = "First View Controller";
+			sourceTree = "<group>";
+		};
+		9006CE00195EBEF300452371 /* Second View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9006CE01195EBEF300452371 /* SBCSecondViewController.h */,
+				9006CE02195EBEF300452371 /* SBCSecondViewController.m */,
+			);
+			path = "Second View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,10 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9006CDAD195EB32200452371 /* Main_iPad.storyboard in Resources */,
-				9006CDB5195EB32200452371 /* Images.xcassets in Resources */,
-				9006CDAA195EB32200452371 /* Main_iPhone.storyboard in Resources */,
-				9006CDA1195EB32200452371 /* InfoPlist.strings in Resources */,
+				9006CDF3195EBE4900452371 /* Main_iPhone.storyboard in Resources */,
+				9006CDF6195EBE6900452371 /* Images.xcassets in Resources */,
+				9006CDF2195EBE4900452371 /* Main_iPad.storyboard in Resources */,
+				9006CDE9195EBDE800452371 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9006CDA3195EB32200452371 /* main.m in Sources */,
-				9006CDA7195EB32200452371 /* SBCAppDelegate.m in Sources */,
-				9006CDB0195EB32200452371 /* SBCFirstViewController.m in Sources */,
-				9006CDB3195EB32200452371 /* SBCSecondViewController.m in Sources */,
+				9006CDEC195EBDF000452371 /* main.m in Sources */,
+				9006CE03195EBEF300452371 /* SBCAppDelegate.m in Sources */,
+				9006CE04195EBEF300452371 /* SBCFirstViewController.m in Sources */,
+				9006CE05195EBEF300452371 /* SBCSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,36 +349,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9006CD9F195EB32200452371 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9006CDA0195EB32200452371 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9006CDA8195EB32200452371 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9006CDA9195EB32200452371 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		9006CDAB195EB32200452371 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9006CDAC195EB32200452371 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		9006CDC4195EB32200452371 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9006CDC5195EB32200452371 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9006CDE5195EBDE800452371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006CDE6195EBDE800452371 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9006CDEE195EBE4900452371 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006CDEF195EBE4900452371 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9006CDF0195EBE4900452371 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9006CDF1195EBE4900452371 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -398,8 +462,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Split Britches Capture/Split Britches Capture-Prefix.pch";
-				INFOPLIST_FILE = "Split Britches Capture/Split Britches Capture-Info.plist";
+				GCC_PREFIX_HEADER = "Split Britches Capture/Supporting Files/Split Britches Capture-Prefix.pch";
+				INFOPLIST_FILE = "Split Britches Capture/Supporting Files/Split Britches Capture-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,8 +475,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Split Britches Capture/Split Britches Capture-Prefix.pch";
-				INFOPLIST_FILE = "Split Britches Capture/Split Britches Capture-Info.plist";
+				GCC_PREFIX_HEADER = "Split Britches Capture/Supporting Files/Split Britches Capture-Prefix.pch";
+				INFOPLIST_FILE = "Split Britches Capture/Supporting Files/Split Britches Capture-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -477,6 +541,7 @@
 				9006CDCD195EB32200452371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9006CDCE195EB32200452371 /* Build configuration list for PBXNativeTarget "Split Britches CaptureTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +550,7 @@
 				9006CDD0195EB32200452371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
