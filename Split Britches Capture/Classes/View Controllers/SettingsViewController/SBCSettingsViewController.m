@@ -1,10 +1,9 @@
-//
-//  SBCSettingsViewController.m
-//  Split Britches Capture
-//
-//  Created by Morgan Wall on 29/06/2014.
-//  Copyright (c) 2014 Morgan Wall. All rights reserved.
-//
+/**
+ * @filename SBCSettingsViewController.m
+ * @author Morgan Wall
+ * @date 29-6-2014
+ * @copyright Copyright 2014 Split Britches. All rights reserved.
+ */
 
 #import "SBCSettingsViewController.h"
 

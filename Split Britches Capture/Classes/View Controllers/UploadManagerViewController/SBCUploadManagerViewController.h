@@ -1,10 +1,12 @@
-//
-//  SBCUploadManagerViewController.h
-//  Split Britches Capture
-//
-//  Created by Morgan Wall on 29/06/2014.
-//  Copyright (c) 2014 Morgan Wall. All rights reserved.
-//
+/**
+ * @filename SBCUploadManagerViewController.h
+ * @author Morgan Wall
+ * @date 29-6-2014
+ * @copyright Copyright 2014 Split Britches. All rights reserved.
+ *
+ * @brief The view controller responsible for managing the uploads to Split
+ * Britches' external data server.
+ */
 
 #import <UIKit/UIKit.h>
 
