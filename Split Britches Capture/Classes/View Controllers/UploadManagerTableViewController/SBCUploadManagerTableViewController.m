@@ -13,15 +13,25 @@
 UIImagePickerControllerDelegate>
 
 /**
- * @brief The image picker controller responsible for displaying the camera and
- * multimedia library interface for selecting files for upload.
+ * @brief The view controller responsible for accessing the camera.
  */
-@property UIImagePickerController* imagePicker;
+@property UIImagePickerController* cameraPicker;
 
 /**
- * @brief The UI button for adding a file for upload.
+ * @brief The view controller for accessing multimedia files from the user's 
+ * photo library.
  */
-@property UIBarButtonItem* takePhotoButton;
+@property UIImagePickerController* albumPicker;
+
+/**
+ * @brief The UI button for adding a file for upload captured from the camera.
+ */
+@property UIBarButtonItem* cameraButton;
+
+/**
+ * @brief The UI button for adding a file for upload from the user's album.
+ */
+@property UIBarButtonItem* albumButton;
 
 @end
 
@@ -40,22 +50,40 @@ UIImagePickerControllerDelegate>
     [super viewDidLoad];
     
     // initialise navigation elements
-    self.takePhotoButton =
+    self.cameraButton =
         [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera
                                                       target:self
                                                       action:@selector(takePhoto)];
-    self.navigationItem.rightBarButtonItem = self.takePhotoButton;
+    self.navigationItem.rightBarButtonItem = self.cameraButton;
     
-    // initialise image picker
+    self.albumButton =
+    [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                  target:self
+                                                  action:@selector(selectFromAlbum)];
+    self.navigationItem.leftBarButtonItem = self.albumButton;
+    
+    // initialise camera picker
     if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
-        self.imagePicker = [[UIImagePickerController alloc] init];
-        self.imagePicker.delegate = self;
-        self.imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
-        self.imagePicker.mediaTypes =
+        self.cameraPicker = [[UIImagePickerController alloc] init];
+        self.cameraPicker.delegate = self;
+        self.cameraPicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        self.cameraPicker.mediaTypes =
             [UIImagePickerController
              availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];
     } else {
         self.navigationItem.rightBarButtonItem.enabled = NO;
+    }
+    
+    // initialise album picker
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeSavedPhotosAlbum]) {
+        self.albumPicker = [[UIImagePickerController alloc] init];
+        self.albumPicker.delegate = self;
+        self.albumPicker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+        self.albumPicker.mediaTypes =
+            [UIImagePickerController
+             availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeSavedPhotosAlbum];
+    } else {
+        self.navigationItem.leftBarButtonItem.enabled = NO;
     }
 }
 
@@ -130,25 +158,31 @@ UIImagePickerControllerDelegate>
 #pragma mark UIImagePickerControllerDelegate
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    [self.imagePicker dismissViewControllerAnimated:YES completion:^(void) {
+    [picker dismissViewControllerAnimated:YES completion:^(void) {
 //        UIImage* capturedImage =
 //            [info objectForKey:UIImagePickerControllerOriginalImage];
     }];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
-    [self.imagePicker dismissViewControllerAnimated:YES completion:NULL];
+    [picker dismissViewControllerAnimated:YES completion:NULL];
 }
 
 #pragma mark Helper Methods
 
 - (void)takePhoto {
-    [self presentViewController:self.imagePicker animated:YES completion:NULL];
+    [self presentViewController:self.cameraPicker animated:YES completion:NULL];
+}
+
+- (void)selectFromAlbum {
+    [self presentViewController:self.albumPicker animated:YES completion:NULL];
 }
 
 #pragma mark - Properties
 
-@synthesize imagePicker;
-@synthesize takePhotoButton;
+@synthesize cameraPicker;
+@synthesize albumPicker;
+@synthesize cameraButton;
+@synthesize albumButton;
 
 @end
