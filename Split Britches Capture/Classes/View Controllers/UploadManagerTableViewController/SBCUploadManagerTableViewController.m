@@ -6,6 +6,7 @@
  */
 
 #import "SBCUploadManagerTableViewController.h"
+#import <MobileCoreServices/MobileCoreServices.h>
 
 #pragma mark - Interface
 
@@ -159,8 +160,18 @@ UIImagePickerControllerDelegate>
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     [picker dismissViewControllerAnimated:YES completion:^(void) {
-//        UIImage* capturedImage =
-//            [info objectForKey:UIImagePickerControllerOriginalImage];
+        
+        NSString* mediaType = [info objectForKey:UIImagePickerControllerMediaType];
+        
+        // handle image for file upload
+        if (CFStringCompare((CFStringRef)mediaType, kUTTypeImage, 0) == kCFCompareEqualTo) {
+            UIImage* image = [info objectForKey:UIImagePickerControllerOriginalImage];
+        
+        // handle video for file upload
+        } else if (CFStringCompare((CFStringRef)mediaType, kUTTypeMovie, 0) == kCFCompareEqualTo) {
+            NSURL* url =  [info objectForKey:UIImagePickerControllerMediaURL];
+            NSData* videoData = [NSData dataWithContentsOfURL:url];
+        }
     }];
 }
 
